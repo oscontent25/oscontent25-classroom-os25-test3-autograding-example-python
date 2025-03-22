@@ -19,7 +19,7 @@ jobs:
       with:
         timeout: 10
         setup-command: ''
-        max_scores: 10
+        max_score: 10
     - name: Autograding Reporter
       uses: classroom-resources/autograding-grading-reporter@v1
       env:
